@@ -1,0 +1,7 @@
+{
+    "name": "noskla/wan2wwan-falover",
+    "require": {
+        "phpseclib/phpseclib": "^3.0",
+        "phpoffice/phpspreadsheet": "^1.17"
+    }
+}
