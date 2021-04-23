@@ -40,9 +40,9 @@ class Report
 
         $row = strval($sheet->getHighestRow() + 1);
         $start_date = date("Y-m-d", $start_timestamp);
-        $start_time = date("H:M:s", $start_timestamp);
+        $start_time = date("H:i:s", $start_timestamp);
         $end_date = date("Y-m-d", $end_timestamp);
-        $end_time = date("H:M:s", $end_timestamp);
+        $end_time = date("H:i:s", $end_timestamp);
 
         $sheet->setCellValue("A" . $row, $start_date);
         $sheet->setCellValue("B" . $row, $start_time);
